@@ -12,10 +12,10 @@ import java.util.List;
 @Controller
 public class usersController {
 
-    @RequestMapping("/list")
+    @RequestMapping("/for")
     public String list(ModelMap map) {
         map.addAttribute("users", getUserList());
-        return "list";
+        return "for";
     }
 
     private List<User> getUserList() {
