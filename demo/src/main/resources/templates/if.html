@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Example IF / Unless</title>
+</head>
+<body>
+    <div>
+        <h1>This sample is show IF/Unless how to work</h1>
+        <a th:if="${flag == 'yes'}" th:href="@{https://tokugai.com}">home page</a>
+        <br>
+        <a th:unless="${flag != 'no'}" th:href="@{https://google.com}">google</a>
+    </div>
+</body>
+</html>
