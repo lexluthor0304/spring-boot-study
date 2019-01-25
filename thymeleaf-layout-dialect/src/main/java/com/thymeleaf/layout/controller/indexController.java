@@ -15,4 +15,9 @@ public class indexController {
 	public String fragment(){
 		return "fragment";
 	}
+
+	@RequestMapping("/layout")
+	public String layout() {
+		return "layout";
+	}
 }
