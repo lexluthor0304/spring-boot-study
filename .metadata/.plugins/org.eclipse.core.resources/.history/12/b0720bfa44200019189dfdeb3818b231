@@ -12,7 +12,7 @@
 	<input th:value="${age gt 30 ? '中年':'若い'}"/>
 	<!-- 说明：在表单标签中显示内容使用：th:value;${age gt 30 ? '中年':'年轻'}表示如果 age 大于 30 则显示中年，否则显示年轻。 -->
 	<br/>
-	<a th:if="${flag eq 'yes'}" th:href="@{http://google.com/}">google</a>
+	<a th:if="${flag eq 'yes'}" th:href="@{http://favorites.ren/}">favorites</a>
 	</div>
 </body>
 </html>
