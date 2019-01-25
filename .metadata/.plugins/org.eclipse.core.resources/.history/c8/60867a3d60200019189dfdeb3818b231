@@ -21,7 +21,7 @@
 	<!-- 文字列の長さを図る -->
 	<p th:text="${#strings.length(userName)}">userName</p>
 	<!-- 文字列を連結してプリント -->
-	<p th:text="${#strings.concat(userName, userName, userName)}"></p>
+	<p th:text="${#strings.concat(userName, + ' | ' + userName, + ' | ' + userName)}"></p>
 	<!-- 長さ指定の文字列を作る -->
 	<p th:text="${#strings.randomAlphanumeric(count)}">userName</p>
 </body>
