@@ -1,0 +1,13 @@
+package com.thymeleaf.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+
+@Controller
+public class Inline {
+
+	public String inline(ModelMap map){
+
+		return "inline";
+	}
+}

@@ -1,0 +1,5 @@
+package com.thymeleaf.demo.controller;
+
+public class Inline {
+
+}
