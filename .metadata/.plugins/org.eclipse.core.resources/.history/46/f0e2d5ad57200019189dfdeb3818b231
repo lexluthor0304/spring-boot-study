@@ -17,8 +17,8 @@
 	<p th:text="'Hello, ' + ${userName} + ' !'"></p>
 	</div>
 </body>
-<script th:inline="javascript">
-	var name = [[${userName}]] + ', 俺だよ！';
-	alert(name);
-</script>
+	<script th:inline="javascript">
+		var = name [[$userName]] + ', 俺だよ！';
+		alert(name);
+	</script>
 </html>

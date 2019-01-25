@@ -18,7 +18,7 @@
 	</div>
 </body>
 <script th:inline="javascript">
-	var name = [[${userName}]] + ', 俺だよ！';
-	alert(name);
+    var name = [[${userName}]] + ', Sebastian';
+     alert(name);
 </script>
 </html>
