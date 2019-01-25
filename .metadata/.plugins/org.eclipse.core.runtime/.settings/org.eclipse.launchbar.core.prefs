@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:spring-boot-url - SpringBootUrlApplication,org.eclipse.launchbar.core.descriptorType.default\:spring-boot-eq - SpringBootEqApplication
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:spring-boot-url - SpringBootUrlApplication,org.eclipse.launchbar.core.descriptorType.default\:spring-boot-eq - SpringBootEqApplication,org.eclipse.launchbar.core.descriptorType.default\:thymeleaf-switch - ThymeleafSwitchApplication
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:spring-boot-url\ -\ SpringBootUrlApplication/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:spring-boot-url\ -\ SpringBootUrlApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB

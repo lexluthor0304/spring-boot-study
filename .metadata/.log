@@ -792,3 +792,9 @@ Binding(ALT+CTRL+C,
 
 !ENTRY org.eclipse.launchbar.core 2 0 2019-01-25 10:48:09.222
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2019-01-25 11:05:22.905
+!MESSAGE リソース '/spring-boot-switch' が開かれていません。
+
+!ENTRY org.eclipse.core.resources 4 372 2019-01-25 11:06:24.339
+!MESSAGE リソース '/thymeleaf-switch' が開かれていません。
