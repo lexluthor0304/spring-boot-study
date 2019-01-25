@@ -1,0 +1,10 @@
+package com.thymeleaf.layout.controller;
+
+@Controller
+public class indexController {
+
+	@RequestMapping("/index")
+	public String index() {
+		return index;
+	}
+}

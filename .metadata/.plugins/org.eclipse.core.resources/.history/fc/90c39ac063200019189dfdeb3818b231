@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<copyright th:fragment="copyright">
+		&copy; 2019
+	</copyright>
+
+	<footer th:fragment="copyright">
+	&copy; 2018
+	</footer>
+</body>
+</html>
