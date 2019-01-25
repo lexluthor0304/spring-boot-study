@@ -1,0 +1,219 @@
+2019-01-25 10:33:10,319 [Worker-8] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-01-25 10:34:03,959 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.thymeleaf:demo:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\demo\pom.xml.
+2019-01-25 10:34:05,311 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2019-01-25 10:34:05,313 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-01-25 10:34:05,317 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2019-01-25 10:34:05,322 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2019-01-25 10:34:08,972 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2019-01-25 10:34:10,748 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:10,753 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:34:10,773 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-01-25 10:34:10,785 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:10,785 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\demo\src\test\resources
+2019-01-25 10:34:13,147 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:13,148 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:34:13,148 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:34:13,150 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:13,150 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\demo\src\test\resources
+2019-01-25 10:34:21,597 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-url:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-url\pom.xml.
+2019-01-25 10:34:21,899 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.lex:studyspringboot2_1:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\studyspringboot2_1\pom.xml.
+2019-01-25 10:34:22,484 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-url/src/main/java
+2019-01-25 10:34:22,485 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-url/src/main/resources
+2019-01-25 10:34:22,485 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-url/src/main/resources
+2019-01-25 10:34:22,486 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-url/src/test/java
+2019-01-25 10:34:22,605 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /studyspringboot2_1/src/main/java
+2019-01-25 10:34:22,605 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /studyspringboot2_1/src/main/resources
+2019-01-25 10:34:22,610 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /studyspringboot2_1/src/main/resources
+2019-01-25 10:34:22,686 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /studyspringboot2_1/src/test/java
+2019-01-25 10:34:23,140 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 2 sec
+2019-01-25 10:34:24,583 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:24,583 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:34:24,584 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:34:24,588 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:24,588 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-url\src\test\resources
+2019-01-25 10:34:26,761 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:26,761 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:34:26,763 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:34:26,767 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:34:26,767 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\studyspringboot2_1\src\test\resources
+2019-01-25 10:35:10,779 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,779 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,779 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,782 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,783 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\demo\src\test\resources
+2019-01-25 10:35:10,810 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,810 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,810 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,813 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,813 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-url\src\test\resources
+2019-01-25 10:35:10,822 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,822 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,823 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:35:10,824 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:35:10,825 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\studyspringboot2_1\src\test\resources
+2019-01-25 10:37:10,085 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:10,541 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:10,541 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:10,556 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:10,564 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:10,743 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2019-01-25 10:37:10,745 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-25 10:37:10,962 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:11,488 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:11,488 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:11,490 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:11,494 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:11,671 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-25 10:37:11,735 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-25 10:37:11,994 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:12,328 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:12,328 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:12,328 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:12,328 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:12,490 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-25 10:37:12,497 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-25 10:37:12,731 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:12,998 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:12,999 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:12,999 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:12,999 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:13,123 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-25 10:37:13,128 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-25 10:37:13,314 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:13,583 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:13,583 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:13,583 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:13,584 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:13,702 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-25 10:37:13,709 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-25 10:37:13,886 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-boot-eq:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\pom.xml.
+2019-01-25 10:37:14,129 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/main/java
+2019-01-25 10:37:14,129 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:14,129 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-eq/src/main/resources
+2019-01-25 10:37:14,130 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-eq/src/test/java
+2019-01-25 10:37:14,262 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2019-01-25 10:37:14,649 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:37:14,649 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:37:14,650 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:37:14,654 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:37:14,654 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:37:15,792 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:37:15,792 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:37:15,792 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:37:15,794 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:37:15,794 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:39:36,168 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:39:36,174 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:39:36,175 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:39:36,180 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:39:36,180 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:43:32,376 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:43:32,376 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:43:32,377 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:43:32,381 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:43:32,381 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:44:14,666 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:14,666 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:44:14,667 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:44:14,671 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:14,671 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:44:17,914 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:17,914 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:44:17,915 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:44:17,919 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:17,919 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:44:22,191 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:22,192 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:44:22,192 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:44:22,195 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:22,195 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:44:35,072 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:35,074 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:44:35,077 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:44:35,079 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:44:35,079 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:45:01,240 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:45:01,242 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:45:01,245 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:45:01,249 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:45:01,249 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:47:48,571 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:47:48,573 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:47:48,575 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:47:48,579 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:47:48,579 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:49:18,329 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:49:18,330 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:49:18,331 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:49:18,336 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:49:18,336 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:49:20,376 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:49:20,377 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:49:20,377 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:49:20,381 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:49:20,381 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:52:54,863 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:52:54,863 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:52:54,864 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:52:54,867 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:52:54,868 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:52:58,203 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:52:58,204 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:52:58,204 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:52:58,208 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:52:58,209 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:53:11,154 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:11,155 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:53:11,156 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:53:11,158 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:11,158 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:53:41,658 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:41,659 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:53:41,661 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:53:41,663 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:41,663 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:53:48,629 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:48,629 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:53:48,630 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:53:48,635 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:53:48,636 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:54:40,415 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:54:40,415 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:54:40,416 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:54:40,420 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:54:40,420 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:54:57,125 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:54:57,125 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:54:57,126 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:54:57,131 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:54:57,131 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:55:12,662 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:12,663 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:55:12,663 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:55:12,667 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:12,667 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:55:48,023 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:48,024 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:55:48,024 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:55:48,031 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:48,032 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:55:58,803 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:58,803 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-25 10:55:58,804 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:55:58,808 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:55:58,808 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:56:20,040 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:20,041 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:20,042 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:20,044 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:20,044 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:56:37,063 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:37,064 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:37,066 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:37,068 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:37,068 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
+2019-01-25 10:56:42,179 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:42,180 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:42,182 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-25 10:56:42,183 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-25 10:56:42,184 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-eq\src\test\resources
