@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>dates</h1>
+	<!-- 時間をフォーマット -->
+	<p th:text="${#dates.format(date, 'yyyy-MM-dd HH:mm:ss')}">わたる</p>
+	<!-- 今日の日付（日まで） -->
+	<p th:text="${#dates.createToday()}">わたる</p>
+	<!-- 秒まで -->
+	<p th:text="${#dates.createNow()}">わたる</p>
+	<br><br><br>
+	<h1>strings</h1>
+	<!-- からかどうか -->
+	<p th:text="${#strings.isEmpty(userName)}">userName</p>
+	<!-- リストは空かどうか -->
+	<p th:text="${#strings.listIsEmpty(users)}">userName</p>
+	<!-- 文字列の長さを図る -->
+	<p th:text="${#strings.length(userName)}">userName</p>
+	<!-- 文字列を連結してプリント -->
+	<p th:text="${#strings.concat(userName,userName,userName)}"></p>
+	<!-- 長さ指定の文字列を作る -->
+	<p th:text="${#strings.randomAlphanumeric(count)}">userName</p>
+</body>
+</html>

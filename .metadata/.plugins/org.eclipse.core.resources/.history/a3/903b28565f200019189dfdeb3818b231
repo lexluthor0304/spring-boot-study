@@ -1,0 +1,20 @@
+package com.thymeleaf.object.controller;
+
+import java.util.Date;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Utility {
+
+	@RequestMapping("/utility")
+	public String utility(ModelMap map) {
+		map.addAttribute("userName", "わたる");
+		map.addAttribute("users", getUserList());
+		map.addAttribute("count", 12);
+		map.addAttribute("date", new Date());
+		return "utility";
+	}
+}

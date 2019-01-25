@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<h1>基本オブジェクト</h1>
+		<p th:text="${#request.getAttribute('request')}">
+
+		<br/>
+		<p th:text="${session.session}"></p>
+		Established locale country: <span th:text="${#locale.country}">JP</span>.
+		Established locale country: <span th:text="${#locale.country}">CN</span>.
+	</div>
+</body>
+</html>

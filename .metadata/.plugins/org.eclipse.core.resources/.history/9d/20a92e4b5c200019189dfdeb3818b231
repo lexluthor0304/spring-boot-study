@@ -1,0 +1,10 @@
+package com.thymeleaf.object.controller;
+
+@Controller
+public class Utility {
+
+	@RequestMapping("/utility")
+	public String utility(ModelMap map) {
+		return "utility";
+	}
+}

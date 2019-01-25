@@ -1,0 +1,10 @@
+package com.thymeleaf.object.controller;
+
+@Controller
+public class Object {
+
+	@RequestMapping("/object")
+	public String object(ModelMap map) {
+		return "object";
+	}
+}

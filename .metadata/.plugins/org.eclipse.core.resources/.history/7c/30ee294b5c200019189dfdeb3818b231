@@ -1,0 +1,5 @@
+package com.thymeleaf.object.controller;
+
+public class Utility {
+
+}

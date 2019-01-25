@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>dates</h1>
+	<!-- 時間をフォーマット -->
+	<p th:text="${#dates.format(date, 'yyyy-MM-dd HH:mm:ss')}">わたる</p>
+	<!-- 今日の日付（日まで） -->
+	<p th:text="${#dates.createToday()}">わたる</p>
+	<!-- 秒まで -->
+	<p th:text="${#dates.createNow()}">わたる</p>
+</body>
+</html>
