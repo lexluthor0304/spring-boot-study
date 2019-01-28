@@ -14,9 +14,8 @@ public class UserRepositoryImpl implements UserRepository {
 
 	@Override
 	public int save(User user) {
-
-		return jdbcTemplate.update("INSTER INTO users(name, password, age) values(?, ?, ?)",
-				user.getName(), user.getPassword(), user.getAge());
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
 	}
 
 	@Override
