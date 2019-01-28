@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserRepositoryTests" project="spring-boot-JDBC" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.springboot.jdbc.respository.UserRepositoryTests" time="0.413">
-    <testcase name="testSave" classname="com.springboot.jdbc.respository.UserRepositoryTests" time="0.413"/>
-  </testsuite>
-</testrun>
