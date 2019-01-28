@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.springboot.jdbc.model.User;
+import com.springboot.jdbc.respository.UserRepository;
 
 /**
  * @author z01.ko.sai
@@ -26,7 +27,7 @@ public class UserRepositoryTests {
 
 	@Test
 	public void testSave() {
-		User user = new User("wataru", "123456", 20);
+		User user = new User("わたる", "123456", 20);
 		userRepository.save(user);
 	}
 }

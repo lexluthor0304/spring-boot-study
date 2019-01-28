@@ -26,7 +26,7 @@ public class UserRepositoryTests {
 
 	@Test
 	public void testSave() {
-		User user = new User("wataru", "123456", 20);
+		User user = new User("わたる", "123456", 20);
 		userRepository.save(user);
 	}
 }
