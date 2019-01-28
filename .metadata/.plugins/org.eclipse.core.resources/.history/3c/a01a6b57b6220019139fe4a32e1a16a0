@@ -2,11 +2,6 @@ package com.springboot.jdbc.model;
 
 public class User {
 
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", password=" + password + ", age=" + age + "]";
-	}
-
 	private Long id;
 	private String name;
 	private String password;
@@ -50,7 +45,4 @@ public class User {
 		this.age = age;
 	}
 
-	public User() {
-		// TODO 自動生成されたコンストラクター・スタブ
-	}
 }
