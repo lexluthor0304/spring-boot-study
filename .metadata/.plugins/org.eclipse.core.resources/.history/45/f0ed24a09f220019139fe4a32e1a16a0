@@ -1,0 +1,5 @@
+package com.springboot.jdbc.respository;
+
+public class UserRepositoryImpl implements UserRepositor {
+
+}

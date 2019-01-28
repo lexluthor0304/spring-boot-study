@@ -1,0 +1,16 @@
+package com.springboot.jdbc.respository.Impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.springboot.jdbc.model.User;
+import com.springboot.jdbc.respository.UserRepository;
+
+@Repository
+public class UserRepositoryImpl implements UserRepository {
+
+	@Autowired
+	private JdbcTemplate jdbctemplate;
+
+}

@@ -1,0 +1,5 @@
+package com.springboot.jdbc.model;
+
+public class User {
+
+}
