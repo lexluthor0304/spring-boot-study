@@ -22,7 +22,7 @@ public class indexController {
 	}
 
 	@RequestMapping("/home")
-	public String home() {
+	public String layout() {
 		return "home";
 	}
 }
