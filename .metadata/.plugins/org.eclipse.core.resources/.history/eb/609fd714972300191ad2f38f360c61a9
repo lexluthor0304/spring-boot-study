@@ -1,0 +1,7 @@
+package com.springboot.mybatis.mapper;
+
+public interface UserMapper {
+	
+	List<User> getAll();
+	
+}
