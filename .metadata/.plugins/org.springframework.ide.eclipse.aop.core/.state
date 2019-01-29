@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="thymeleaf-object"/>
+<aop-project name="thymeleaf-utility"/>
+<aop-project name="spring-boot-url"/>
+<aop-project name="thymeleaf-switch"/>
+<aop-project name="studyspringboot2_1"/>
 <aop-project name="spring-boot-JDBC"/>
 <aop-project name="thymeleaf-inline"/>
-<aop-project name="thymeleaf-object"/>
 <aop-project name="demo"/>
-<aop-project name="thymeleaf-utility"/>
-<aop-project name="thymeleaf-switch"/>
-<aop-project name="spring-boot-url"/>
 <aop-project name="thymeleaf-layout-dialect"/>
-<aop-project name="studyspringboot2_1"/>
+<aop-project name="spring-boot-JDBC-multi"/>
+<aop-project name="spring-boot-Mybatis"/>
 <aop-project name="spring-boot-eq"/>
 </aop-reference-model>

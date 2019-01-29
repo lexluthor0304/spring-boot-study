@@ -2317,3 +2317,8 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-01-29 16:34:54,727 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-01-29 16:34:54,743 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-29 16:34:54,743 [Worker-209] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-29 17:31:27,106 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-29 17:31:27,108 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-29 17:31:27,111 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-29 17:31:27,113 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-29 17:31:27,113 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
