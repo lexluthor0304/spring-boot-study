@@ -1,0 +1,5 @@
+package com.springboot.jdbc.config;
+
+public class DataSourceConfig {
+
+}

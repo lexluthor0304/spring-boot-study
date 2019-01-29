@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.springboot.jdbc.repository;
+
+/**
+ * @author z01.ko.sai
+ *
+ */
+public class UserRepositoryTests {
+
+}

@@ -1,0 +1,38 @@
+/**
+ *
+ */
+package com.springboot.jdbc.repository;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.springboot.jdbc.model.User;
+import com.springboot.jdbc.respository.UserRepository;
+
+/**
+ * @author z01.ko.sai
+ *
+ */
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class UserRepositoryTests {
+	@Autowired
+	private UserRepository userRepostory;
+	@Autowired
+	private JdbcTemplate primaryJdbcTemplate;
+	@Autowired
+	private JdbcTemplate secondaryJdbcTemplate;
+
+	@Test
+	public void testSave() {
+		User user= new User("wataru", "123456", 20);
+		userRepostory.save(user, primaryJdbcTemplate);
+		/*userRepostory.save(user, secondaryJdbcTemplate);*/
+
+	}
+}
