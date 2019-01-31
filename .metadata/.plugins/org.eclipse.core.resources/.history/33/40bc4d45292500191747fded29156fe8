@@ -66,12 +66,12 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "UserEntity {" +
-				"id=" + id +
-				", userName=" + userName + '\'' +
-				", passWord=" + passWord + '\'' +
+		return "User {id=" + id +
+				", userName=" + userName +
+				", passWord=" + passWord +
 				", userSex=" + userSex+
-				", nickName=" + nickName + '\'' +
-				"}";
+				", nickName=" + nickName + "}";
 	}
+
+
 }

@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import com.springboot.mybatis.enums.UserSexEnum;
@@ -31,4 +32,12 @@ public class UserMapperTest {
 		List<User> mybatis = userMapper.getAll();
 	}
 
+	@Test
+	public void testInsert()  {
+		userMapper.insert(new User("aa", "a123456", UserSexEnum.MALE));
+		userMapper.insert(new User("bb", "b123456", UserSexEnum.FEMALE));
+		userMapper.insert(new User("cc", "b123456", UserSexEnum.OTHER));
+
+		Assert.assertEquals(3, userMapper.getAll().size());
+	}
 }

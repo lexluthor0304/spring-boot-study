@@ -15,15 +15,6 @@
 		id, userName, passWord, user_sex, nickName
 	</sql>
 
-	<sql id="Base_Where_List">
-		<if test="userName != null and userName != ''">
-		and userName = #{userName}
-		</if>
-		<if test="userSex != null and userSex != ''">
-		and userSex = #{userSex}
-		</if>
-	</sql>
-
 	<!-- 共通しているカラムの記載を省く -->
 	<select id="getAll" resultMap="BaseResultMap">
 	SELECT

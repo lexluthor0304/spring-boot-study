@@ -68,10 +68,12 @@ public class User implements Serializable {
 	public String toString() {
 		return "UserEntity {" +
 				"id=" + id +
-				", userName=" + userName + '\'' +
-				", passWord=" + passWord + '\'' +
+				", userName=" + userName +
+				", passWord=" + passWord +
 				", userSex=" + userSex+
-				", nickName=" + nickName + '\'' +
+				", nickName=" + nickName +
 				"}";
 	}
+
+
 }
