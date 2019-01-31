@@ -2,7 +2,7 @@ package com.springboot.mybatis.model;
 
 import java.io.Serializable;
 
-import com.springboot.mybatis.emus.UserSexEnum;
+import com.springboot.mybatis.enums.UserSexEnum;
 
 public class User implements Serializable {
 
@@ -66,7 +66,7 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "UserEntity {id=" + id +
+		return "User {id=" + id +
 				", userName=" + userName +
 				", passWord=" + passWord +
 				", userSex=" + userSex+

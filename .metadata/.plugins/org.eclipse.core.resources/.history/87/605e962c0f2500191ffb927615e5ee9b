@@ -1,0 +1,11 @@
+package com.springboot.mybatis.web;
+
+@RestController
+public class UserController {
+
+	@Resource
+	private UserMapper userMapper;
+
+	@ResquesMapping("/getUsers")
+
+}

@@ -1,0 +1,16 @@
+package com.springboot.mybatis.web;
+
+import com.springboot.mybatis.mapper.UserMapper;
+
+@RestController
+public class UserController {
+
+	@Resource
+	private UserMapper userMapper;
+
+	@ResquesMapping("/getUsers")
+	public List<User> getUsers() {
+		List<User> users = userMapper.getAll();
+		return users;
+	}
+}

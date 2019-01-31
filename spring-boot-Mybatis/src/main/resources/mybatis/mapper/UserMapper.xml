@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-	<!-- テーブルカラムの対照関係を記載 -->
-	<mapper namespace="com.springboot.mybatis.UserMapper">
-		<resultMap id="BaseResultMap" type="com.springboot.batis.model.User">
-		<result column="userName" property="userName" jdbcType="VARCHAR" />
-		<result column="passWord" property="passWord" jdbcType="VARCHAR" />
-		<result column="user_sex" property="user_sex" jdbcType="com.springboot.mybatis.emus.UserSexEmus" />
-		<result column="nickName" property="nickName" jdbcType="VARCHAR" />
+<!-- テーブルカラムの対照関係を記載 -->
+<mapper namespace="com.springboot.mybatis.mapper.UserMapper">
+	<resultMap id="BaseResultMap" type="com.springboot.mybatis.model.User">
+	<result column="userName" property="userName" jdbcType="VARCHAR" />
+	<result column="passWord" property="passWord" jdbcType="VARCHAR" />
+	<result column="user_sex" property="user_sex" jdbcType="com.springboot.mybatis.enums.UserSexEmus" />
+	<result column="nickName" property="nickName" jdbcType="VARCHAR" />
 	</resultMap>
 
 	<!-- 共通しているカラムを記載 -->
@@ -19,14 +19,14 @@
 	SELECT
 	<!-- ↓↓↓↓ここです -->
 	<include refid="Base_Column_List" />
-	FROM users
+	FROM mybatis
 	</select>
 
 	<!-- 一件つづセレクト -->
 	<select id="getOne" parameterType="Long" resultMap="BaseResultMap">
 		SELECT
 		<include refid="Base_Column_List"></include>
-		FROM users
+		FROM mybatis
 		WHERE id={id}
 	</select>
 
@@ -42,7 +42,7 @@
 	<!-- アップデート文 -->
 	<update id="update" parameterType="com.springboot.mybatis.model.User">
 		UPDATA
-				users
+				mybatis
 		SET
 			<!-- NULLかどうかを判断する -->
 			<if test="userName != null">userName = #{userName}, </if>
@@ -55,10 +55,10 @@
 	<!-- 削除 -->
 	<delete id="delete" parameterType="Long">
 		DELETE FROM
-				users
+				mybatis
 		WHERE
 				id = #{id}
 	</delete>
 
-	</mapper>
+</mapper>
 

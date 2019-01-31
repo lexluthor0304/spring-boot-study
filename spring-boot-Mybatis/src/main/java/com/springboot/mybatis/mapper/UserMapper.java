@@ -2,14 +2,17 @@ package com.springboot.mybatis.mapper;
 
 import java.util.List;
 
+import com.springboot.mybatis.model.User;
+
 public interface UserMapper {
-	List<UserEntity> getAll();
 
-	UserEntity getOne(Long id);
+	List<User> getAll();
 
-	void insert(UserEntity user);
+	User getOne(Long id);
 
-	void update(UserEntity user);
+	void insert(User user);
 
-	void delete(Long id);
+	void update(User user);
+
+	int delete(Long id);
 }

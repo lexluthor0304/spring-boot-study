@@ -1,0 +1,17 @@
+package com.springboot.mybatis.web;
+
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+public class UserController {
+
+/*	@Resource
+	private UserMapper userMapper;
+
+	@RequestMapping("/getUsers")
+	public List<User> getUsers() {
+		List<User> users = userMapper.getAll();
+		return users;
+	}*/
+}

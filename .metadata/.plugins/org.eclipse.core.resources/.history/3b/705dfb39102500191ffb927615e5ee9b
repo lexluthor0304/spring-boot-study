@@ -1,0 +1,33 @@
+package com.springboot.mybatis.mapper;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.junit.Test;
+
+import com.springboot.mybatis.emus.UserSexEnum;
+import com.springboot.mybatis.model.User;
+
+public class UserMapperTest {
+
+	@Resource
+	private UserMapper userMapper;
+
+	@Test
+	public void testUser() {
+		// インサート
+		/*userMapper.insert(new User("テスト", "123456", UserSexEnum.MALE));*/
+
+		// 削除
+		int count = userMapper.delete(2l);
+		User user = userMapper.getOne(1l);
+		user.setNickName("smaile");
+
+		// アップデート
+		userMapper.update(user);
+
+		// セレクト
+		List<User> users = userMapper.getAll();
+	}
+}
