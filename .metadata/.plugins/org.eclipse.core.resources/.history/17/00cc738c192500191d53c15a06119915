@@ -28,6 +28,6 @@ public class UserMapperTest {
 		userMapper.update(user);
 
 		// セレクト
-		List<User> mybatis = userMapper.getAll();
+		List<User> users = userMapper.getAll();
 	}
 }

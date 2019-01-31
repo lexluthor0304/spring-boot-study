@@ -2661,3 +2661,45 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-01-31 14:28:13,918 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2019-01-31 14:28:13,920 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-01-31 14:28:13,920 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:30:49,845 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:30:49,846 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:30:49,846 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-31 14:30:49,850 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:30:49,850 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:32:07,437 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:07,438 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:07,438 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:07,440 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:07,440 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:32:11,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:11,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:11,708 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:11,712 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:11,712 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:32:17,327 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:17,327 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:17,328 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:32:17,329 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:32:17,330 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:34:59,747 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:34:59,748 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-01-31 14:34:59,748 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-31 14:34:59,752 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:34:59,752 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:35:13,650 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-01-31 14:35:14,259 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mybatis:spring-boot-Mybatis:0.0.1-SNAPSHOT @ C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\pom.xml.
+2019-01-31 14:35:14,807 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-Mybatis/src/main/java
+2019-01-31 14:35:14,809 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-Mybatis/src/main/resources
+2019-01-31 14:35:14,809 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-Mybatis/src/main/resources
+2019-01-31 14:35:14,810 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-Mybatis/src/test/java
+2019-01-31 14:35:15,059 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-01-31 14:35:15,990 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:35:15,991 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-31 14:35:16,020 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-31 14:35:16,041 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:35:16,041 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources
+2019-01-31 14:40:21,482 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:40:21,485 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-01-31 14:40:21,488 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-01-31 14:40:21,492 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-01-31 14:40:21,492 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\z01.ko.sai\Documents\GitHub\spring-boot-study\spring-boot-Mybatis\src\test\resources

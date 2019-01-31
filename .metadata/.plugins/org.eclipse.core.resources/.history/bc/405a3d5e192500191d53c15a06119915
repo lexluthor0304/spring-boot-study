@@ -3,12 +3,11 @@
 <!-- テーブルカラムの対照関係を記載 -->
 <mapper namespace="com.springboot.mybatis.mapper.UserMapper">
 	<resultMap id="BaseResultMap" type="com.springboot.mybatis.model.User">
-		<id column="id" property="id" jdbcType="BIGINT" />
-		<result column="userName" property="userName" jdbcType="VARCHAR" />
-		<result column="passWord" property="passWord" jdbcType="VARCHAR" />
-		<result column="user_sex" property="user_sex" jdbcType="com.springboot.mybatis.enums.UserSexEmus" />
-		<result column="nickName" property="nickName" jdbcType="VARCHAR" />
-		</resultMap>
+	<result column="userName" property="userName" jdbcType="VARCHAR" />
+	<result column="passWord" property="passWord" jdbcType="VARCHAR" />
+	<result column="user_sex" property="user_sex" jdbcType="com.springboot.mybatis.enums.UserSexEmus" />
+	<result column="nickName" property="nickName" jdbcType="VARCHAR" />
+	</resultMap>
 
 	<!-- 共通しているカラムを記載 -->
 	<sql id="Base_Column_List">
@@ -34,7 +33,7 @@
 	<!-- インサート文 -->
 	<insert id="insert" parameterType="com.springboot.mybatis.model.User">
 		INSERT INTO
-				mybatis
+				users
 				(userName, password, user_sex)
 			VALUES
 				(#{userName}, #{passWord}, #{user_sex})
