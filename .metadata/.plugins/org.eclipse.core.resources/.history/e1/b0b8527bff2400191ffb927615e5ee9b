@@ -1,0 +1,5 @@
+package com.springboot.mybatis.model;
+
+public interface UserMapper {
+
+}

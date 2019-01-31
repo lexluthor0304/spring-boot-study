@@ -1,0 +1,5 @@
+package com.springboot.mybatis.emus;
+
+public class UserSexEnum extends Enum<E> {
+
+}
