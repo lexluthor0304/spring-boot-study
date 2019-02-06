@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `JPA`;
+CREATE TABLE `JPA` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'プライマリーキー',
+  `userName` varchar(32) DEFAULT NULL COMMENT 'ユーザーネーム',
+  `passWord` varchar(32) DEFAULT NULL COMMENT 'パスワード',
+  `email` varchar(128) DEFAULT NULL COMMENT 'メール',
+  `nick_name` varchar(32) DEFAULT NULL COMMENT 'ニックネーム',
+  `regTime` TIMESTAMP DEFAULT 0 COMMENT '登録時間',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
