@@ -19,19 +19,18 @@ public class UserRepositoryTests {
     private UserRepository userRepository;
 
     @Test
-    public void test() {
-
+    public void testSave() {
         Date date = new Date();
         DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);
         String formattedDate = dateFormat.format(date);
 
-        userRepository.save(new User(1l,"aa", "aa123456","aa@gmail.com","aa123456",formattedDate));
-        userRepository.save(new User(2l,"bb", "bb123456","bb@gmail.com","bb123456",formattedDate));
-        userRepository.save(new User(3l,"cc", "cc123456","cc@gmail.com","cc123456",formattedDate));
+        userRepository.save(new User("aa", "aa123456", "aa@gmail.com", "a1", formattedDate));
+        userRepository.save(new User("bb", "bb123456", "bb@gmail.com", "b1", formattedDate));
+        userRepository.save(new User("cc", "cc123456", "cc@gmail.com", "c1", formattedDate));
 
         Assert.assertEquals(9, userRepository.findAll().size());
         Assert.assertEquals("bb", userRepository.findByUserNameOrEmail("bb", "cc@gmail.com").getNickName());
-        userRepository.delete(userRepository.findByUserName("aal"));
+        userRepository.delete(userRepository.findByUserName("aa"));
 
         }
     }

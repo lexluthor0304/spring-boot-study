@@ -26,8 +26,7 @@ public class User {
 
     }
 
-    public User(Long id, String userName, String passWord, String email, String nickName, String regTime) {
-        this.id = id;
+    public User(String userName, String passWord, String email, String nickName, String regTime) {
         this.userName = userName;
         this.passWord = passWord;
         this.email = email;
@@ -81,17 +80,5 @@ public class User {
 
     public void setRegTime(String regTime) {
         this.regTime = regTime;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", passWord='" + passWord + '\'' +
-                ", email='" + email + '\'' +
-                ", nickName='" + nickName + '\'' +
-                ", regTime='" + regTime + '\'' +
-                '}';
     }
 }
