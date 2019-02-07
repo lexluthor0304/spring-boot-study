@@ -33,4 +33,19 @@ public class UserRepositoryTests {
         userRepository.delete(userRepository.findByUserName("aa"));
 
         }
+
+    @Test
+    public void testBaseQuery() {
+        Date date = new Date();
+        DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);
+        String formattedDate = dateFormat.format(date);
+        User user = new User("ee", "ee123456", "ee@gmail.com", "e1", formattedDate);
+
+        userRepository.findAll();
+        userRepository.findById(1l);
+        userRepository.save(user);
+        userRepository.delete(user);
+        userRepository.count();
+        userRepository.existsById(1l);
+        }
     }
