@@ -28,8 +28,8 @@ public class UserRepositoryTests {
         userRepository.save(new User("bb", "bb123456", "bb@gmail.com", "b1", formattedDate));
         userRepository.save(new User("cc", "cc123456", "cc@gmail.com", "c1", formattedDate));
 
-        Assert.assertEquals(9, userRepository.findAll().size());
-        Assert.assertEquals("bb", userRepository.findByUserNameOrEmail("bb", "cc@gmail.com").getNickName());
+        Assert.assertEquals(3, userRepository.findAll().size());
+        Assert.assertEquals("b1", userRepository.findByUserNameOrEmail("bb", "bb@gmail.com").getNickName());
         userRepository.delete(userRepository.findByUserName("aa"));
 
         }
