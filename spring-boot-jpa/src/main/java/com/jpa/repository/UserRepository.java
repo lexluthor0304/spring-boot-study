@@ -2,7 +2,13 @@ package com.jpa.repository;
 
 import com.jpa.model.User;
 
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -17,13 +23,39 @@ public interface UserRepository extends JpaRepository<User, Long> {
     BTW
     And , Or などを使用するのが可能
      */
+//    void deleteById(Long id);
+//
+//    List<User> findByEmailLike(String email);
+//    User findByUserNameIgnoreCase(String userName);
+//    List<User> findByUserNameOrderByEmailDesc(String email);
+
+    /**
+     * 削除と更新する際には
+     * @Transactionalと
+     * @Modifyingは
+     * 必要となってる
+     * */
+    @Transactional(timeout = 10)
+    @Modifying
+    @Query("update User set userName = ?1 where id = ?2")
+    int modifyById(String userName, Long id);
+
+    @Transactional
+    @Modifying
+    @Query("delete from User where id = ?1")
     void deleteById(Long id);
 
-    List<User> findByEmailLike(String email);
-    User findByUserNameIgnoreCase(String userName);
-    List<User> findByUserNameOrderByEmailDesc(String email);
+    @Query("select u from User u where u.email = ?1")
+    User findByEmail(String email);
 
-    /*
+    @Query("select u from User u")
+    Page<User> findAll(Pageable pageable);
+
+    Page<User> findByNickName(String nickName, Pageable pageable);
+
+    Page<User> findByNickNameAndEmail(String nickName, String email, Pageable pageable);
+
+    /**
     Keyword	Sample	JPQL snippet
     And	findByLastnameAndFirstname	… where x.lastname = ?1 and x.firstname = ?2
     Or	findByLastnameOrFirstname	… where x.lastname = ?1 or x.firstname = ?2
