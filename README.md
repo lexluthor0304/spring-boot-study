@@ -1,2 +1,2 @@
 # spring-boot-study
-my spring boot study flow
+自分用spring boot勉強の流れです。
