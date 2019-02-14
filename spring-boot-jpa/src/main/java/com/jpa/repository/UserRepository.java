@@ -18,7 +18,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     User findByUserNameOrEmail(String username, String email);
 
-    /*
+    /**
     カスタムクエリには
     BTW
     And , Or などを使用するのが可能
@@ -29,13 +29,16 @@ public interface UserRepository extends JpaRepository<User, Long> {
 //    User findByUserNameIgnoreCase(String userName);
 //    List<User> findByUserNameOrderByEmailDesc(String email);
 
+//    List<User> findByPassWord(String password);
+//    List<User> findByNickName(String nickName);
+
     /**
      * 削除と更新する際には
      * @Transactionalと
      * @Modifyingは
      * 必要となってる
      * */
-    @Transactional(timeout = 10)
+    @Transactional(timeout = 10) /* タイムアウト設定 */
     @Modifying
     @Query("update User set userName = ?1 where id = ?2")
     int modifyById(String userName, Long id);

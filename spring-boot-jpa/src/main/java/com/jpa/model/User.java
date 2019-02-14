@@ -1,11 +1,14 @@
 package com.jpa.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import org.hibernate.annotations.NamedQueries;
+
+import javax.persistence.*;
 
 @Entity
+/*@NamedQueries({
+        @org.hibernate.annotations.NamedQuery(name = "User.findByPassWord", query = "select u from User u where u.passWord = ?l"),
+        @org.hibernate.annotations.NamedQuery(name = "User.findByNickName", query = "select u from User u where u.nickName = ?l")
+})*/
 public class User  {
 
     @Id
